@@ -1,52 +1,64 @@
-# Prerequisites
-*.d
+﻿# === ARCHIVOS GENERADOS POR VISUAL STUDIO Y VS CODE ===
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ncb
+*.aps
+*.opendb
+*.sdf
+*.VC.db
+*.tlog
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# === CARPETAS DE COMPILACIÓN Y TEMPORALES ===
+[Bb]in/
+[Oo]bj/
+[Tt]emp/
+*.tmp
+*.cache
+*.bak
+*.log
+artifacts/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# === ARCHIVOS DE BASE DE DATOS ===
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trc
+*.sqlplan
+*.snp
+*.dacpac
+*.bacpac
+*.dbproj.schemaview
 
-# Precompiled Headers
-*.gch
-*.pch
+# === ARCHIVOS DE CONFIGURACIÓN Y BACKUPS ===
+*.publish.xml
+*.Publish.sql
+PublishScripts/
+Migrations/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# === ARCHIVOS DE CONTROL DE VERSIONES DE SQL SERVER ===
+/DataBaseSnapshots/
+*.sqlproj.user
+*.dbmdl
+*.jfm
+*.DacFxCache
+*.dmp
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# === PAQUETES NUGET Y DEPENDENCIAS ===
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.assets.json
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# === ARCHIVOS TEMPORALES Y SISTEMA ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store

@@ -19,3 +19,17 @@ VALUES
 (1, 'Camisa Estampada Tropical', 'Camisa con estampado floral, ideal para vacaciones.', 42.50, 50),
 (1, 'Camisa de Lino Beige', 'Camisa de lino para climas cálidos.', 64.00, 40),
 (1, 'Camisa de Franela Roja', 'Camisa de franela roja a cuadros.', 44.90, 110);
+
+INSERT INTO [ProductImage] (ProductId, ImageUrl, IsMain) VALUES 
+ (1, 'https://imgur.com/09FQv9N', 1)
+,(1, 'https://imgur.com/eaijEJy', 0)
+,(1, 'https://imgur.com/Gwbjy1K', 0)
+,(2, 'https://imgur.com/eaijEJy', 1)
+,(3, 'https://imgur.com/Gwbjy1K', 1)
+,(4, 'https://imgur.com/09FQv9N', 1)
+,(5, 'https://imgur.com/eaijEJy', 1)
+,(6, 'https://imgur.com/Gwbjy1K', 1) 
+,(7, 'https://imgur.com/09FQv9N', 1)
+,(8, 'https://imgur.com/eaijEJy', 1)
+,(9, 'https://imgur.com/Gwbjy1K', 1)
+,(10, 'https://imgur.com/09FQv9N', 1); 

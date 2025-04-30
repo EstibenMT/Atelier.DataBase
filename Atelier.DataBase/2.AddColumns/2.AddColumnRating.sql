@@ -1,0 +1,2 @@
+ALTER TABLE Product
+ADD Rating decimal(2,1) NOT NULL DEFAULT 0.0;

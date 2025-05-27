@@ -129,10 +129,10 @@ CREATE TABLE Brand (
 CREATE TABLE [Product] (
     ProductId INT IDENTITY(1,1) NOT NULL,
     BrandId INT,
+	Price FLOAT NOT NULL,
+	CurrencyId INT NOT NULL DEFAULT 1,
     Name NVARCHAR(100),
     Description NVARCHAR(500),
-    Price FLOAT,
-    Stock INT,
     CONSTRAINT PK_Product PRIMARY KEY (ProductId)
 );
 

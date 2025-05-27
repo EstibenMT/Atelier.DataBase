@@ -1,0 +1,31 @@
+descarga en archivo excel el Estados
+
+Convierte ese archivo en formato CSV UTF-8
+
+Abre SQL Server Management Studio (SSMS).
+
+Conéctate a tu servidor de bases de datos y selecciona la base de datos en la que deseas importar los datos.
+
+Haz clic con el botón derecho en la base de datos y selecciona "Tareas" > "Import Flat File..." para abrir el Asistente de Importación de Datos.
+
+En el Asistente de Importación de Datos, sigue los siguientes pasos:
+
+a. En la página de "Bienvenida", haz clic en "Siguiente".
+
+c. En la página de "Especificar archivo de origen", selecciona el archivo CSV que deseas importar. 
+
+d.Nombra la tabla que vas a crear como "Estados". Luego, haz clic en "Siguiente".
+
+g.Modifica el tipo de dato de todas las columnas de la siguiente manera:
+
+Id			int
+Name			nvarchar(50)
+IdCountry		int
+
+h.Modifica de manera que se permitan datos null . Luego, haz clic en "Siguiente".
+
+i. En la página de "Resumen", revisa la configuración que has establecido y, si todo parece correcto, haz clic en "Finalizar" para iniciar el proceso de importación.
+
+El Asistente comenzará a importar los datos desde el archivo CSV a la tabla de destino en tu base de datos SQL Server. Una vez que se complete la importación, verás un mensaje de éxito.
+
+Para confirmar que los datos se han importado correctamente, puedes ejecutar una consulta SQL en la tabla de destino.
